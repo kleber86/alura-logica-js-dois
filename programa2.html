@@ -11,8 +11,9 @@
         pincel.fillStroke = 'black';
         pincel.strokeRect(x, y, 50, 50);
     }
-    
-    desenhaQuadrado(0, 0, 'green');
-    desenhaQuadrado(0, 50, 'red');
-    desenhaQuadrado(0, 100, 'black');
+    for(var num = 1; num <= 500; num = num + 50){
+        desenhaQuadrado(num, 0, 'yellow');
+        desenhaQuadrado(num, 50, 'black');
+        desenhaQuadrado(num, 100, 'red');
+    }
 </script>
