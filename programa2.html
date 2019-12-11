@@ -2,7 +2,7 @@
 
 <script>
 
-    function desenhaQuadrado(x, y, cor){
+    function desenhaQuadrado(x, y, cor) {
         var tela = document.querySelector('canvas');
         var pincel = tela.getContext('2d')
 
@@ -11,9 +11,11 @@
         pincel.fillStroke = 'black';
         pincel.strokeRect(x, y, 50, 50);
     }
-    for(var num = 1; num <= 500; num = num + 50){
+    var num = 0;
+    while (num <= 500) {
         desenhaQuadrado(num, 0, 'yellow');
         desenhaQuadrado(num, 50, 'black');
         desenhaQuadrado(num, 100, 'red');
+        num = num + 50;
     }
 </script>
