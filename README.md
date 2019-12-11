@@ -2,6 +2,6 @@
 
 - [x] Desenhando gráficos com Canvas
 - [x] Extraindo funções
-- [ ] Interagindo com o usuário
+- [x] Interagindo com o usuário
 - [ ] Movendo elementos: animações simples
 - [ ] Nosso primeiro jogo
