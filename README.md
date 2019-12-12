@@ -4,4 +4,4 @@
 - [x] Extraindo funções
 - [x] Interagindo com o usuário
 - [x] Movendo elementos: animações simples
-- [ ] Nosso primeiro jogo
+- [x] Nosso primeiro jogo
